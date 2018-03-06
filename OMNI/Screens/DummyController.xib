@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="DummyController" customModule="OMNI" customModuleProvider="target">
+            <connections>
+                <outlet property="lblDummy" destination="cQ3-ha-c0G" id="3nO-8Y-GKR"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cQ3-ha-c0G">
+                    <rect key="frame" x="20" y="323" width="335" height="21"/>
+                    <mutableString key="text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla rutrum lacus a aliquet placerat. Mauris erat risus, lacinia ac ultricies dignissim, pellentesque ut nunc. Praesent malesuada augue mauris, eu elementum diam dignissim vitae. Praesent blandit, nibh sed tempus aliquet, mauris arcu pharetra erat, vitae tincidunt metus ante in neque. Maecenas efficitur risus a purus vehicula placerat. Nullam consectetur turpis sodales, congue ligula ut, fringilla quam. Phasellus sit amet ultricies risus, ac tempor quam. In vulputate, neque non semper venenatis, odio nulla pulvinar enim, a molestie ante augue vitae augue. Vivamus blandit ligula vitae nibh dapibus ullamcorper.</mutableString>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="cQ3-ha-c0G" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="CHb-6M-RQP"/>
+                <constraint firstItem="cQ3-ha-c0G" firstAttribute="centerY" secondItem="i5M-Pr-FkT" secondAttribute="centerY" id="VyN-np-nLE"/>
+                <constraint firstAttribute="trailing" secondItem="cQ3-ha-c0G" secondAttribute="trailing" constant="20" id="akG-Gf-ik6"/>
+                <constraint firstItem="cQ3-ha-c0G" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="20" id="cWT-hx-cbV"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
+        </view>
+    </objects>
+</document>
