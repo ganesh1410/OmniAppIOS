@@ -9,7 +9,7 @@
 import Foundation
 import UIKit
 
-class AppThemeFonts: NSObject {
+class AppThemeFonts {
     
     class func appThemeRegularFontWith(size:CGFloat) -> UIFont {
         return UIFont.init(name: "NunitoSans-Regular", size: size)!
